@@ -1,6 +1,6 @@
 {
 	"name": "municipios-ibge",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "Sitegui <sitegui@sitegui.com.br>",
 	"description": "Retorna o código IBGE de 7 dígitos para um dado município",
 	"main": "./index.js",
@@ -19,6 +19,6 @@
 		"node": ">=0.10"
 	},
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "node test.js"
 	}
 }

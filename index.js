@@ -34,7 +34,8 @@ module.exports.normalizar = function (str) {
 }
 
 // dados[siglaDoEstado][nomeMunicipioNormalizado] = codigo (string de 7 dígitos)
-module.exports.dados = JSON.parse(require('fs').readFileSync('dados.json', 'utf8'))
+var path = require('path').join(__dirname, 'dados.json')
+module.exports.dados = JSON.parse(require('fs').readFileSync(path, 'utf8'))
 
 // Map de:
 // nome de estado normalizado -> sigla
