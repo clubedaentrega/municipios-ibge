@@ -1,0 +1,24 @@
+{
+	"name": "municipios-ibge",
+	"version": "1.0.0",
+	"author": "Sitegui <sitegui@sitegui.com.br>",
+	"description": "Retorna o código IBGE de 7 dígitos para um dado município",
+	"main": "./index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sitegui/municipios-ibge"
+	},
+	"keywords": [
+		"ibge",
+		"brasil",
+		"municípios"
+	],
+	"dependencies": {},
+	"license": "MIT",
+	"engines": {
+		"node": ">=0.10"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	}
+}
